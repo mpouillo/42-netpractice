@@ -30,4 +30,6 @@
 
 ## Resources
 
-TODO
+- [Understand TCP/IP addressing and subnetting basics (Microsoft Learn)](https://learn.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
+- [RFC 1878: Variable Length Subnet Table For IPv4](https://www.rfc-editor.org/info/rfc1878/)
+- [IP Addressing and Subnetting Explained (Medium)](https://medium.com/@noderin1/ip-addressing-and-subnetting-explained-0ff5b5970dbf)
