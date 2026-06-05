@@ -3,12 +3,22 @@
 # NetPractice
 
 - [Description](#description)
+    - [TCP/IP model](#tcpip-model)
+    - [Internet addresses](#internet-addresses)
+    - [Subnet masks](#subnet-masks)
+    - [Default gateways](#default-gateways)
+    - [Routers](#routers)
+    - [Switches](#switches)
+    - [OSI model](#osi-model)
 - [Instructions](#instructions)
+    - [Run the training interface](#run-the-training-interface)
+    - [Export configurations](#export-configurations)
+    - [Submission requirements](#submission-requirements)
 - [Resources](#resources)
 
 ## Description
 
-### TCP/IP addressing
+### TCP/IP model
 
 TCP/IP (Transmission Control Protocol/Internet Protocol) is a set of standardized rules (or protocols) that allow computers to communicate on a network such as the internet. It was created by DARPA (an agency of the US Department of Defense) in the 1970s. TCP/IP provides end-to-end connectivity specifying how data should be formatted, addresses, transmitted, routed and received at the destination.
 
@@ -36,7 +46,7 @@ This layer defines the networking methods used within the scope of the local net
 
 Devices connected through ethernet use the MAC (Media access control) protocol instead of IP. The packet is bundled with the source's MAC address to create a frame, and sent to the ethernet switch which forwards it to the router. The router deconstructs the frame, takes out the packet and forwards it to its destination.
 
-### Internet address
+### Internet addresses
 
 The two parts of an Internet address are the network address portion and the host address portion. This allows a remote host to specify both the remote network and the host on the remote network when sending information. By convention, a host number of 0 is used to refer to the network itself.
 
@@ -67,7 +77,7 @@ Routers are devices that connect one network to another. They create local netwo
 
 A switch is a device that enables the connection of multiple devices to the same network. Most routers for homes and small business have a built-in switch. As switches don't have the ability to use IP addresses, they instead use MAC addresses. A switch uses a routing table to associate the switch’s port number with the MAC address connected at the other end of the wire.
 
-### OSI layers
+### OSI model
 
 The Open Systems Interconnection (OSI) model is an alternative model to TCP/IP. They both describe how information is transmitted between devices across a network. However, the OSI model has 7 layers as opposed to TCP/IP's 4 layers.
 
@@ -106,6 +116,9 @@ cd net_practice && ./run.sh
 On the web interface, simply click on "Get my config" to export and save it to file.
 
 ### Submission requirements
+
+- 10 configuration files, one for each level, exported using the `Get my config` button.
+- README.md
 
 ## Resources
 
